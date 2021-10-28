@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.App {
+    height: 1200px;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: #5B5B5B;
+}
+
+.regular-text {
+    font-size: 18px !important;
+    line-height: 22px !important;
+}
+
+.sign-up-form {
+    width: 570px;
+    height: 964px;
+    box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 16px;
+    background: #FFFFFF;
+    padding: 29px 35px 35px;
+}
+
+.logo-img {
+    margin-left: 210px;
+}
+
+.sign-up-title {
+    margin: 29px 0 35px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+}
+
+.gender-check {
+    margin-bottom: 30px;
+}
+
+.form-title {
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.checkbox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkbox-btn {
+    width: 154px;
+    height: 98px;
+    border: 1px solid #C1C1C1;
+    border-radius: 16px;
+    padding-top: 20px;
+    position: relative;
+    text-align: center;
+}
+
+.checkbox-btn input {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    opacity: 0.8;
+}
+
+.checkbox-btn p {
+    margin-top: 8px;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.form-box {
+    border-radius: 16px !important;
+    padding: 24px 25px !important;
+    font-size: 18px !important;
+    line-height: 22px !important;
+    margin-bottom: 30px;
+}
+
+.submit-btn {
+    width: 500px;
+    height: 70px;
+    background: #3C9C41 !important;
+    border-radius: 16px !important;
+    font-weight: bold !important;
+    color: #FFFFFF !important;
+    border: none !important;
+}
+
+.submit-btn:hover {
+    background: #4DB252 !important;
+}
+
+.submit-btn:active {
+    background: #318636 !important;
+}
+
+.alredy {
+    margin: 30px 0 20px;
+}
+
+.alredy, .privacy {
+    text-align: center;
+}
+
+.alredy a, .privacy a {
+    font-weight: bold;
+    color: #3C9C41;;
+}
+
+@media only screen and (max-width: 768px) {
+    .regular-text {
+        font-size: 16px !important;
+        line-height: 20px !important;
+    }
+    
+    .sign-up-form {
+        width: 340px;
+        height: 711px;
+        padding: 25px 16px 18px;
+    }
+
+    .logo-img {
+        width: 54px;
+        height: 56px;
+        margin-left: 127px;
+    }
+
+    .sign-up-title {
+        margin: 21px 0 24px;
+    }
+
+    .gender-check {
+        margin-bottom: 20px;
+    }
+
+    .checkbox-btn {
+        width: 90px;
+        height: 80px;
+        padding-top: 10px;
+    }
+
+    .checkbox-btn p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .form-title {
+        margin-bottom: 8px;
+    }
+
+    .form-box {
+        padding: 13px 18px !important;
+        font-size: 16px !important;
+        line-height: 20px !important;
+        margin-bottom: 20px;
+    }
+
+    .submit-btn {
+        width: 308px;
+        height: 50px;
+        color: #FFFFFF !important;
+        border: none !important;
+    }
+
+    .alredy {
+        margin: 16px 0;
+    }
+
+    .alredy, .privacy {
+        font-size: 14px !important;
+        line-height: 17px !important;
+    }
+}
